@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Pull Sources') {
             steps {
-             git url: 'https://github.com/kiriti07/tomcat-webapp.git'
+             git url: 'https://github.com/kiriti07/tomcat-webapp.git', branch: 'main'
             }
          }
         
